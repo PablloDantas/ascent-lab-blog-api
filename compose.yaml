@@ -1,0 +1,6 @@
+﻿services:
+  ascent-lab-blog-api:
+    image: ascent-lab-blog-api
+    build:
+      context: .
+      dockerfile: Dockerfile
